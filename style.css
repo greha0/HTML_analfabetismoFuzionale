@@ -1,0 +1,89 @@
+.contMenu{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    background-color: #DEE2FF;
+    border: 1px solid black;
+}
+
+.menu{
+    width: 20%;
+    height: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: 18%;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+    line-height: 180%;
+    border: 2px solid white;
+}
+
+.menu:hover{
+    opacity: 50%;
+}
+
+.info{
+    width: 20%;
+    height: fit-content;
+    border: 1px solid black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1%;
+    padding: 0.5%;
+    margin-left: 5%;
+    font-size: larger;
+}
+
+.titolo{
+    width: 96%;
+    height: fit-content;
+    padding: 2%;
+    border-bottom: 1px solid white;
+    background-color:#DEE2FF;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.statistiche{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image:url(img/analfabetismojpg.jpg);
+    margin-left: 4.5%;
+}
+
+.body{
+    display:flex;
+}
+
+
+.words{
+    border: 1px solid black;
+    
+    height: fit-content;
+    width: 10%;
+    position: relative;
+    right: 40%;
+    margin-top: 8%;
+}
+
+.word{
+    padding: 15%;
+    border: 1px solid white;
+    background-color:#DEE2FF;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.word:hover{
+    opacity: 50%;
+}
+
+.modal{
+    position: relative;
+    right: 39%;
+    margin-top: 9%;
+}
