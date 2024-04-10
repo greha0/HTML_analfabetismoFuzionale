@@ -1,14 +1,14 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
-        <link rel="scriptsheet" href="script.js">
+        <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
         <div class="contMenu"> 
            <div class="menu"> <a href="index.html">ANALFABETISMO FUNZIONALE </a></div>
             <div class="menu"> <a href="html/strategieDiIntervento.html">STRATEGIE DI INTERVENTO</a> </div>
-            <div class="menu"> CONSIDERAZIONI PERSONALI </div>
-            <div class="menu"> CREDITS </div>
+            <div class="menu"> <a href="html/considerazioniPersonali.html">CONSIDERAZIONI PERSONALI </a> </div>
+             <div class="menu"> <a href="html/credits.html"> CREDITS </a> </div>
         </div>
 
         <div class="body">
@@ -32,17 +32,17 @@
         <div class="statistiche"></div>
         </div>
             <div class="words">
-                <div class="word"> Sonno </div>
-                <div class="word"> Xenofobia </div>
-                <div class="word"> Lettura </div>
-                <div class="word"> Memoria </div>
-                <div class="word"> Pause </div>
-                <div class="word"> Cellulare </div>
-                <div class="word"> Social media</div>
+                <div class="word" onclick="switchText(0)"> Sonno </div>
+                <div class="word" onclick="switchText(1)"> Xenofobia </div>
+                <div class="word" onclick="switchText(2)"> Lettura </div>
+                <div class="word" onclick="switchText(3)"> Memoria </div>
+                <div class="word" onclick="switchText(4)"> Pause </div>
+                <div class="word" onclick="switchText(5)"> Cellulare </div>
+                <div class="word" onclick="switchText(6)"> Social media</div>
             </div>
             <div class="modal">
-                <p id="title"> Clicca qualche opzione </p>
-                <-----
+                <p id="title"> Clicca qualche opzione <br> <----- </p>
+                
             </div>
         </div>
     </body>
